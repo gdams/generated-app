@@ -1,0 +1,17 @@
+{
+  "name": "bethissilly",
+  "version": "1.0.0",
+  "description": "A generated Bluemix application",
+  "private": true,
+  "engines": {
+    "node": "^6.9.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "pkgcloud": "^1.4.0",
+    "cfenv": "^1.0.3",
+    "express": "^4.14.0"
+  }
+}

@@ -1,0 +1,16 @@
+---
+applications:
+- name: bethissilly
+  memory: 128M
+  instances: 1
+  disk_quota: 1024M
+  timeout: 180
+  random-route: true
+  buildpack: sdk-for-nodejs
+  command: npm start
+  services:
+    - sxa-Object-Storage
+  declared-services:
+    sxa-Object-Storage:
+      label: Object-Storage
+      plan: Free

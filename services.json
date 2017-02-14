@@ -1,0 +1,28 @@
+{
+  "Object-Storage": [
+    {
+      "credentials": {
+        "auth_url": "https://lon-identity.open.softlayer.com",
+        "project": "object_storage_ff2a2cc1_e94e_4a0b_b566_df58996091b2",
+        "projectId": "b8dbf95dacc04009b43ec3a6f07f4327",
+        "region": "london",
+        "userId": "e5e7b3ed23cb4eceaca11f73deb55b6a",
+        "username": "admin_489b82c6dd5eacbe473bc7dd42985d71dd5827aa",
+        "password": "M3k-1G4=[w,!3AST",
+        "domainId": "8f0c7fc19a4b415b9568ac7b79301157",
+        "domainName": "1232507",
+        "role": "admin"
+      },
+      "syslog_drain_url": null,
+      "label": "Object-Storage",
+      "provider": null,
+      "plan": "Free",
+      "name": "Object Storage-vk",
+      "tags": [
+        "storage",
+        "ibm_release",
+        "ibm_created"
+      ]
+    }
+  ]
+}
